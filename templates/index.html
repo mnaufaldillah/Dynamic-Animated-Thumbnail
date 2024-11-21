@@ -79,7 +79,7 @@
                     const thumbnailUrl = data.thumbnail_url;
                     const videoFilename = data.video_filename;
                     videoPreview.innerHTML = `<video width="100%" controls><source src="/videos/${videoFilename}" type="video/mp4"></video>`;
-                    thumbnailResult.innerHTML =  `<img src="${thumbnailUrl}" alt="Video Thumbnail">`;
+                    thumbnailResult.innerHTML =  `<img src="/${thumbnailUrl}" alt="Video Thumbnail">`;
                 } else {
                     thumbnailResult.innerHTML = '<p>Failed to generate the Thumbnail...</p>'
                 }
