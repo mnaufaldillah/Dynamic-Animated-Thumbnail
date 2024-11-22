@@ -180,7 +180,7 @@ async def generate_thumbnail(request: Request):
   # Return Animated GIF as Response
   return {"thumbnail_url": output_gif_url, "video_filename": video_filename}
 
-ngrok.set_auth_token("2l31H1PTpYemZO0JqBMN3aDBsfI_6dT29ZVvqB8XZMRdPZeVm")
+ngrok.set_auth_token("YOUR_NGROK_TOKEN")
 
 ngrok_tunnel = ngrok.connect(8000)
 print('Public URL:', ngrok_tunnel.public_url)
