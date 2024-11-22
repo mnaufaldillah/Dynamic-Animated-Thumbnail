@@ -1,0 +1,13 @@
+aiohttp
+fastapi
+moviepy
+numpy
+opencv_contrib_python
+opencv_python
+pytube
+pytubefix
+tensorflow
+tensorflow_intel
+nest-asyncio 
+pyngrok 
+uvicorn
